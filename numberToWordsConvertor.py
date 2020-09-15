@@ -37,9 +37,12 @@ class word:
             portion=self.number[-3*i:-3*i+3]
         return finalstring.strip().capitalize()
 
-number=999999999
-print(word(number).towords() if number<=999_000_000_000_000 else exec("print('Enter less than 1000 Trillion')"))
+#number=999999999
+#print(word(number).towords() if number<=999_000_000_000_000 else exec("print('Enter less than 1000 Trillion')"))
 
+
+for i in range(100,103,1);
+    print(word(i).towards())
 
 
 
