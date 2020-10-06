@@ -1,5 +1,5 @@
 awww={4:"trillion",3:"billion", 2:"million" ,1:"thousand"}
-
+#jjj
 ones={1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight', 9: 'nine', 10: 'ten'}
 elevens={0:"ten",1: 'eleven', 2: 'twelve', 3: 'thirteen', 4: 'forteen', 5: 'fifteen', 6: 'sixteen', 7: 'seventeen', 8: 'eighteen',9:'ninteen'}
 tens={20: 'twenty', 30: 'thirty', 40: 'forty', 50: 'fifty', 60: 'sixty', 70: 'seventy',80:"eighty",90:"ninety"}
@@ -41,7 +41,7 @@ class word:
 #print(word(number).towords() if number<=999_000_000_000_000 else exec("print('Enter less than 1000 Trillion')"))
 
 
-for i in range(100,103,1):
+for i in range(100,1038,100):
     print(word(i).towords())
 
 
